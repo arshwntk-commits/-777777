@@ -1,0 +1,14 @@
+Import into Access VBA editor in this order:
+1) modAT_Core.bas
+2) modAT_Schema.bas
+3) modAT_Queries.bas
+4) modAT_Finance.bas
+5) modAT_Reports.bas
+6) modAT_Forms.bas
+7) modAT_Tests.bas
+8) modAT_Build.bas
+
+Then: Debug > Compile
+Then: Ctrl+G and run BuildArchonSystem
+
+All BAS modules are ASCII-only. Arabic UI strings are assembled at runtime by AT_U() from Unicode code points, reducing VBA editor source-code-page corruption.

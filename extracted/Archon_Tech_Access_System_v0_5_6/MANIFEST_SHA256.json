@@ -1,0 +1,612 @@
+{
+  "version": "0.5.6",
+  "files_count": 121,
+  "hash_algorithm": "SHA-256",
+  "files": [
+    {
+      "path": "docs/المعمارية_والتدفق_المالي.md",
+      "size_bytes": 6427,
+      "sha256": "9b6214e5c1d8e74de29a731ddef5d89ce9163823465af9ff19cc0cdd828d5af6"
+    },
+    {
+      "path": "docs/تقرير_Hotfix_0.5.2.md",
+      "size_bytes": 5082,
+      "sha256": "e1f62654f5388410e56fba00c793088a61973385da979890d2391308259cf2f6"
+    },
+    {
+      "path": "docs/تقرير_إصلاح_تمرير_COM_0.5.3.md",
+      "size_bytes": 2082,
+      "sha256": "c4725a0c8860e009b3823f73c00ed892bf9680904180060235fa8ffefc57f2f1"
+    },
+    {
+      "path": "docs/تقرير_الإصلاح_والاختبارات_0.5.1.md",
+      "size_bytes": 19376,
+      "sha256": "f1e1e98e28efd714bc2e1ee827e0ee7799aabcd0fd791fbe91ed3fe5c29a5dde"
+    },
+    {
+      "path": "docs/تقرير_الإصلاح_والمراجعة_0.5.5.md",
+      "size_bytes": 10133,
+      "sha256": "8cbc707b9f841689cdb35c36a6c0c2982a5551afb67ae59a156b1866c939f7b8"
+    },
+    {
+      "path": "docs/تقرير_الإصلاح_والمراجعة_0.5.6.md",
+      "size_bytes": 9047,
+      "sha256": "87bb246e6835c3b1565107cc6341c0af5a0a3d61fad53fae4345a47d9728de14"
+    },
+    {
+      "path": "docs/تقرير_المراجعة_والإصلاح_0.5.4.md",
+      "size_bytes": 10476,
+      "sha256": "4ee7317702e5fab8a1832c24220b8d726e6847fc3277934fac3faa4d4ef81c1e"
+    },
+    {
+      "path": "docs/حالة_التنفيذ_والقيود.md",
+      "size_bytes": 14546,
+      "sha256": "d67e206a6c7b7f73f091093c95ed22af1df6b27ceb0539896fb7e9deb6e55ddc"
+    },
+    {
+      "path": "docs/دليل_التركيب_والاختبار.md",
+      "size_bytes": 10464,
+      "sha256": "7285940b3a67a63ce17712f552aa9fca0f9e9dbc05e78ef0bac056662c66fe86"
+    },
+    {
+      "path": "docs/سجل_الإصلاحات_0.5.1.md",
+      "size_bytes": 5893,
+      "sha256": "920cbeadb495f73b93af3bf3a35a1c30bf1438ae47d55622824d663555a0d544"
+    },
+    {
+      "path": "docs/سجل_التغييرات.md",
+      "size_bytes": 10491,
+      "sha256": "db9b6a9a0501c0fc1859737ec64da21abfdfde83132733dab1ed51e440ce1950"
+    },
+    {
+      "path": "docs/فهرس_الإجراءات.csv",
+      "size_bytes": 9220,
+      "sha256": "a8ee7880ddb0689321a2b9e96267c5499a2f1fa64761c39ab67891d317927490"
+    },
+    {
+      "path": "docs/قاموس_الجداول_والحقول.csv",
+      "size_bytes": 20077,
+      "sha256": "5eee3058b324323e58222220db2be1df24ca40182760faa037887a2f3f8e9e3e"
+    },
+    {
+      "path": "docs/مراجعة_السياق_والقرارات.md",
+      "size_bytes": 8215,
+      "sha256": "ede0aed049b767094f75011ba43bc4dd0e6f2283858ec79aaf055d4a214adb8b"
+    },
+    {
+      "path": "docs/مراجعة_النماذج_واختبارات_0.5.6.md",
+      "size_bytes": 24213,
+      "sha256": "2ff8609f027c082cc55afd0029865fed27cd6eb24e9d7ef0e663bf9b0697394e"
+    },
+    {
+      "path": "docs/نتائج_الفحص_الساكن_0.5.0.md",
+      "size_bytes": 1587,
+      "sha256": "65420b65b52e2e042f5c2c44f6f2950d9d75dedaf13d249c2c5875d1f7f21c1b"
+    },
+    {
+      "path": "installer/تسلسل_الاستيراد.txt",
+      "size_bytes": 514,
+      "sha256": "7a63e1ace282f4cd41f181a4203c76f9fb6e317500145b49ad60abdf51353bb5"
+    },
+    {
+      "path": "README_AR.md",
+      "size_bytes": 9948,
+      "sha256": "a69026f77a9d6c71276c268fffff328fa666b62e286edfa6e1d1da8eb861a730"
+    },
+    {
+      "path": "reference/access_0_3_1/Archon_Access_Full_Package/docs/تقرير_التسليم_0.3.1.md",
+      "size_bytes": 7769,
+      "sha256": "9944fb6a224f438d2597688f1bd337f659947a262f476bdaa7f0cbb7de08cf64"
+    },
+    {
+      "path": "reference/access_0_3_1/Archon_Access_Full_Package/docs/تقرير_المراجعة_والحدود.md",
+      "size_bytes": 8231,
+      "sha256": "4c7dbc43ddf80e77fd048c6098fb0783bb1d619619d769eb774d8ecc9e30e2da"
+    },
+    {
+      "path": "reference/access_0_3_1/Archon_Access_Full_Package/docs/خطة_التنفيذ_والقبول.md",
+      "size_bytes": 5230,
+      "sha256": "afa8ab8a11a7d205532c66f65acc4f000f4efddf431bee47d5109a23d9ddbcb8"
+    },
+    {
+      "path": "reference/access_0_3_1/Archon_Access_Full_Package/legacy_reference/Archon_Access_Design_v1.docx",
+      "size_bytes": 88849,
+      "sha256": "f8daac9ecd03865d0e11f419bb97076c79edffc4de8ba469ef7cfd462f91d933"
+    },
+    {
+      "path": "reference/access_0_3_1/Archon_Access_Full_Package/legacy_reference/modArchonBuild_pre_v02.bas",
+      "size_bytes": 12351,
+      "sha256": "6cb6f64dd958de1048e1e650a4d5be923bb5b7f17ebdd946655f8557646f8657"
+    },
+    {
+      "path": "reference/access_0_3_1/Archon_Access_Full_Package/legacy_reference/modArchonFinance_pre_v02.bas",
+      "size_bytes": 11799,
+      "sha256": "42fe82bf36ef6fe7bdd09da11aaaca47a720d226f54494dfd8717fe6eaa7f02f"
+    },
+    {
+      "path": "reference/access_0_3_1/Archon_Access_Full_Package/legacy_reference/Module_Collection.bas",
+      "size_bytes": 28834,
+      "sha256": "ea83711cac71055662fdc8c707b46977c0c9bbd6bdbf85442c68abf1f99a7dac"
+    },
+    {
+      "path": "reference/access_0_3_1/Archon_Access_Full_Package/legacy_reference/تقرير_المرحلة_الأولى_تدقيق_الأساس_المالي.docx",
+      "size_bytes": 41072,
+      "sha256": "b54fca62f0ee4496ebcb9e400d68e6ebe6d070bdbe8b31c2daaf0febf3866e8d"
+    },
+    {
+      "path": "reference/access_0_3_1/Archon_Access_Full_Package/legacy_reference/تقرير_تحليل_نسخة_الأساس.txt",
+      "size_bytes": 8326,
+      "sha256": "9faf8f525907f03e915066c7498866b748890bee26c00e6dbeece13ca0facce6"
+    },
+    {
+      "path": "reference/access_0_3_1/Archon_Access_Full_Package/legacy_reference/وثيقة_تخطيط_وتقرير_مراجعة_نظام_تحصيل_المجاري.docx",
+      "size_bytes": 42661,
+      "sha256": "edc4fcace8948900d505eeddc1209a29725c6be67ff88aa0e30c6bf428122154"
+    },
+    {
+      "path": "reference/access_0_3_1/Archon_Access_Full_Package/README_AR.md",
+      "size_bytes": 9292,
+      "sha256": "e7583e10e8307a8a9351836d1bb02479e264b2b3d6a8e5b4b9e79337f6221653"
+    },
+    {
+      "path": "reference/access_0_3_1/Archon_Access_Full_Package/src/modArchonBuild.bas",
+      "size_bytes": 31782,
+      "sha256": "34542febd78360864e36985e63bd487a1836f70ed7ec04d26d8b9b9b64f68a68"
+    },
+    {
+      "path": "reference/access_0_3_1/Archon_Access_Full_Package/src/modArchonFinance.bas",
+      "size_bytes": 69218,
+      "sha256": "edb951473be6bf58d28630153e60de55568a31846a55b168902ed6849d498104"
+    },
+    {
+      "path": "reference/access_0_3_1/Archon_Access_Full_Package/src/modArchonReports.bas",
+      "size_bytes": 11007,
+      "sha256": "6a2940cbdb8aaba9ef7bed73bf3cf81868f753589acacd571cb49a5d840a2e11"
+    },
+    {
+      "path": "reference/access_0_3_1/Archon_Access_Full_Package/src/modArchonUI.bas",
+      "size_bytes": 48705,
+      "sha256": "db01a85cee1266365981339f82bc4f97282449f754c4b15e2f3d4f01d81be068"
+    },
+    {
+      "path": "reference/access_0_3_1/Archon_Access_Full_Package/tests/اختبارات_القبول.md",
+      "size_bytes": 7247,
+      "sha256": "7d63011ea55b5c85b4a6d3f74d39d1ad59165a6211da6e446a381116e04cba0b"
+    },
+    {
+      "path": "reference/access_0_3_1/Archon_Access_Full_Package/tests/فحص_ساكن_الحزمة.py",
+      "size_bytes": 10839,
+      "sha256": "a35ab8a579e9b5ae95e4fe449656d0abca6fce78f0c64c99b46fb7f921a50bca"
+    },
+    {
+      "path": "reference/access_0_3_1/Archon_Access_Full_Package/tests/نتيجة_الفحص_الساكن.txt",
+      "size_bytes": 1087,
+      "sha256": "28897e060184f0667bf60a1fba367b0bf14c219ac58871b65717e32c294ed989"
+    },
+    {
+      "path": "reference/access_0_3_1/Archon_Access_Full_Package/VERSION.txt",
+      "size_bytes": 237,
+      "sha256": "dd5f2a8c020221648268f7dece627feccedfa0d0f3ca1980e56679c26da8b470"
+    },
+    {
+      "path": "reference/access_builder_0_1_0/Archon_Tech_Access_Builder_v0_1_0/CHANGELOG.md",
+      "size_bytes": 744,
+      "sha256": "c58b24ac53e9f252997cc6f1e87460db5b6c18d2bf9232916a9829d136b7026c"
+    },
+    {
+      "path": "reference/access_builder_0_1_0/Archon_Tech_Access_Builder_v0_1_0/docs/البنية_والقواعد_المالية.md",
+      "size_bytes": 5270,
+      "sha256": "2c0e05d123fbd115ab0d8820317e2696985fa1429ea3d85f59d1ebf9f546c5a6"
+    },
+    {
+      "path": "reference/access_builder_0_1_0/Archon_Tech_Access_Builder_v0_1_0/docs/الحالة_والحدود.md",
+      "size_bytes": 4698,
+      "sha256": "4fd1d7e44b372ee3b135297ff954993a582422d56fb10a39edd20011eb488a3f"
+    },
+    {
+      "path": "reference/access_builder_0_1_0/Archon_Tech_Access_Builder_v0_1_0/docs/دليل_التركيب_والتشغيل.md",
+      "size_bytes": 7860,
+      "sha256": "0096f65e04d913979a2664061e336ecea4ee1a218e39397e0d4a90c2f1b047ed"
+    },
+    {
+      "path": "reference/access_builder_0_1_0/Archon_Tech_Access_Builder_v0_1_0/docs/قائمة_التحقق_قبل_الاستخدام.txt",
+      "size_bytes": 1241,
+      "sha256": "8e954815516f8c304903f1675a4d4849744773b707a0a8ebfd3aa3c1a677fc97"
+    },
+    {
+      "path": "reference/access_builder_0_1_0/Archon_Tech_Access_Builder_v0_1_0/README_AR.md",
+      "size_bytes": 3275,
+      "sha256": "1e536b9c24ff650df6b700656f20b441450a6cedab5ce727d4dd18be9fc3b606"
+    },
+    {
+      "path": "reference/access_builder_0_1_0/Archon_Tech_Access_Builder_v0_1_0/RELEASE_NOTES.md",
+      "size_bytes": 445,
+      "sha256": "84435f6f3341d5c8d245fef61c7072538da9c3bcbbcab39a77bf9ffab3058745"
+    },
+    {
+      "path": "reference/access_builder_0_1_0/Archon_Tech_Access_Builder_v0_1_0/tests/خطة_الاختبار_العملي.md",
+      "size_bytes": 4398,
+      "sha256": "390ef6d5684ad5c7ac1e04e9638614dfdb23017e10984992013160222807bd5a"
+    },
+    {
+      "path": "reference/access_builder_0_1_0/Archon_Tech_Access_Builder_v0_1_0/tests/فحص_ساكن_للحزمة.txt",
+      "size_bytes": 752,
+      "sha256": "0db7593e0bf471d389a3ecf9bbdc21cf9771bd7433af40bc56f9370f65d5e078"
+    },
+    {
+      "path": "reference/access_builder_0_1_0/Archon_Tech_Access_Builder_v0_1_0/VBA/IMPORT_ORDER.txt",
+      "size_bytes": 426,
+      "sha256": "9d7fa09d224595d02d381f8000b3834e3655a033116159249fc2bc6bfe187610"
+    },
+    {
+      "path": "reference/access_builder_0_1_0/Archon_Tech_Access_Builder_v0_1_0/VBA/modAT_Build.bas",
+      "size_bytes": 4926,
+      "sha256": "818af0b8aebbb25432f5c645d246ed6ec7fec7af199891b6a8087f220b88f874"
+    },
+    {
+      "path": "reference/access_builder_0_1_0/Archon_Tech_Access_Builder_v0_1_0/VBA/modAT_Core.bas",
+      "size_bytes": 11591,
+      "sha256": "b53755e2cc7b1d4c7d950fb7be91efe51202102a9ad94b32b11f61659d7251e1"
+    },
+    {
+      "path": "reference/access_builder_0_1_0/Archon_Tech_Access_Builder_v0_1_0/VBA/modAT_Finance.bas",
+      "size_bytes": 35556,
+      "sha256": "6f501baf6ae9b6298814b4cd86df620dbc5b844ef29c7becb883fad8a49aa464"
+    },
+    {
+      "path": "reference/access_builder_0_1_0/Archon_Tech_Access_Builder_v0_1_0/VBA/modAT_Forms.bas",
+      "size_bytes": 35070,
+      "sha256": "16cb0c6d4ace8ff766818228c5fc63ba4b856bd0d347a7b06cae8603ab92bf91"
+    },
+    {
+      "path": "reference/access_builder_0_1_0/Archon_Tech_Access_Builder_v0_1_0/VBA/modAT_Queries.bas",
+      "size_bytes": 5152,
+      "sha256": "0763cbe55f88ff9af46325176fd281d681588ebaf21a8e58edfa2f32fb864d18"
+    },
+    {
+      "path": "reference/access_builder_0_1_0/Archon_Tech_Access_Builder_v0_1_0/VBA/modAT_Reports.bas",
+      "size_bytes": 5837,
+      "sha256": "7cdbac54f11526a90f7d9b7b50a881c0ccd22d0e6439486770ca7df26188a217"
+    },
+    {
+      "path": "reference/access_builder_0_1_0/Archon_Tech_Access_Builder_v0_1_0/VBA/modAT_Schema.bas",
+      "size_bytes": 24060,
+      "sha256": "11412ae5144c9cf3bb651f4ea207941d0aae7499d9bbb46f1c8020f7bd5e43e5"
+    },
+    {
+      "path": "reference/access_builder_0_1_0/Archon_Tech_Access_Builder_v0_1_0/VBA/modAT_Tests.bas",
+      "size_bytes": 4568,
+      "sha256": "364e3e498042886d40ce21f52a61754110faf663bd0b644afdf11bd0139f2241"
+    },
+    {
+      "path": "reference/excel_candidate_0_4_0/docs/تقرير_المراجعة_والحالة.md",
+      "size_bytes": 7117,
+      "sha256": "7c053a6943fac2dfb27cd210c544ad26084501d2c2071117b85e487b5132c1df"
+    },
+    {
+      "path": "reference/excel_candidate_0_4_0/docs/دليل_التشغيل_والاختبار.md",
+      "size_bytes": 2801,
+      "sha256": "f2fbc0dfa16da37d713e1dd097ec36ffde21dfe13583b8e19a1e98fe31073c45"
+    },
+    {
+      "path": "reference/excel_candidate_0_4_0/docs/سجل_التغييرات.md",
+      "size_bytes": 1196,
+      "sha256": "3734cb8076cd2fdd3c09f6038a0d1882687ef2f4249512222e89556b1a918b90"
+    },
+    {
+      "path": "reference/excel_candidate_0_4_0/docs/قواعد_الحسابات_والصلاحيات.md",
+      "size_bytes": 4489,
+      "sha256": "ecc87f894b90c3b5c4b90e6ea7bf4793c0e2025c1d8304930beb3fe4911e6cf4"
+    },
+    {
+      "path": "reference/excel_candidate_0_4_0/docs/مصفوفة_التحويل_Access_إلى_Excel.md",
+      "size_bytes": 5670,
+      "sha256": "abaf6698aa8ae8547fba219ff94a7c8b93217a861fb83f06c0eba39fbc9af9dd"
+    },
+    {
+      "path": "reference/excel_candidate_0_4_0/docs/مواصفات_رسائل_النظام.md",
+      "size_bytes": 3499,
+      "sha256": "03f7752b217507d62a297e42b75d857127b43b57910b2a13fa856684d44d3954"
+    },
+    {
+      "path": "reference/excel_candidate_0_4_0/docs/نتائج_الاختبارات.md",
+      "size_bytes": 2099,
+      "sha256": "ea72ae5713ae0f02af04df894559bcb5b0b9a71ecb41aff0b9c6c4a5995005c6"
+    },
+    {
+      "path": "reference/handoff_0_3_1/Archon_Access_Handoff_0_3_1/docs/تشخيص_بيئة_البناء_2026-10-28.md",
+      "size_bytes": 2459,
+      "sha256": "b5de10c6eee36486751ef2470aa52c6cc4bce5d9a7e3bcd9976ce1d91dd4513b"
+    },
+    {
+      "path": "reference/handoff_0_3_1/Archon_Access_Handoff_0_3_1/docs/تقرير_التسليم_0.3.1.md",
+      "size_bytes": 7769,
+      "sha256": "9944fb6a224f438d2597688f1bd337f659947a262f476bdaa7f0cbb7de08cf64"
+    },
+    {
+      "path": "reference/handoff_0_3_1/Archon_Access_Handoff_0_3_1/docs/تقرير_المراجعة_والحدود.md",
+      "size_bytes": 8231,
+      "sha256": "4c7dbc43ddf80e77fd048c6098fb0783bb1d619619d769eb774d8ecc9e30e2da"
+    },
+    {
+      "path": "reference/handoff_0_3_1/Archon_Access_Handoff_0_3_1/docs/خطة_التنفيذ_والقبول.md",
+      "size_bytes": 5230,
+      "sha256": "afa8ab8a11a7d205532c66f65acc4f000f4efddf431bee47d5109a23d9ddbcb8"
+    },
+    {
+      "path": "reference/handoff_0_3_1/Archon_Access_Handoff_0_3_1/docs/مصفوفة_المتطلبات_والحالة.md",
+      "size_bytes": 7582,
+      "sha256": "c3e2b14715e26eca51bbd1c5f2eff71e250db4e1631289bc1c42ad71710c2c33"
+    },
+    {
+      "path": "reference/handoff_0_3_1/Archon_Access_Handoff_0_3_1/legacy_reference/Archon_Access_Design_v1.docx",
+      "size_bytes": 88849,
+      "sha256": "f8daac9ecd03865d0e11f419bb97076c79edffc4de8ba469ef7cfd462f91d933"
+    },
+    {
+      "path": "reference/handoff_0_3_1/Archon_Access_Handoff_0_3_1/legacy_reference/Archon_Access_Design_v1.pdf",
+      "size_bytes": 1350401,
+      "sha256": "34e19e2f66f14ffe750d428f6a49dd98761e081f2af76915612ff9cf6cccbda1"
+    },
+    {
+      "path": "reference/handoff_0_3_1/Archon_Access_Handoff_0_3_1/legacy_reference/modArchonBuild_pre_v02.bas",
+      "size_bytes": 12351,
+      "sha256": "6cb6f64dd958de1048e1e650a4d5be923bb5b7f17ebdd946655f8557646f8657"
+    },
+    {
+      "path": "reference/handoff_0_3_1/Archon_Access_Handoff_0_3_1/legacy_reference/modArchonFinance_pre_v02.bas",
+      "size_bytes": 11799,
+      "sha256": "42fe82bf36ef6fe7bdd09da11aaaca47a720d226f54494dfd8717fe6eaa7f02f"
+    },
+    {
+      "path": "reference/handoff_0_3_1/Archon_Access_Handoff_0_3_1/legacy_reference/Module_Collection.bas",
+      "size_bytes": 28834,
+      "sha256": "ea83711cac71055662fdc8c707b46977c0c9bbd6bdbf85442c68abf1f99a7dac"
+    },
+    {
+      "path": "reference/handoff_0_3_1/Archon_Access_Handoff_0_3_1/legacy_reference/workbooks/قالب_تحصيل_مشروع_المجاري.xlsm",
+      "size_bytes": 225509,
+      "sha256": "de71c688b3ef99f414286f4596b9639d39e3efd7188f7dafeed591b04c10e7f6"
+    },
+    {
+      "path": "reference/handoff_0_3_1/Archon_Access_Handoff_0_3_1/legacy_reference/workbooks/قالب_تحصيل_مشروع_المجاري_إصلاح_الإيصال_المرحلة1.xlsm",
+      "size_bytes": 217741,
+      "sha256": "b5929614534f25aaa4325031e5b2c23ce82d4ccd2bde54120a650e9746213dab"
+    },
+    {
+      "path": "reference/handoff_0_3_1/Archon_Access_Handoff_0_3_1/legacy_reference/workbooks/قالب_تحصيل_مشروع_المجاري_جاهز_فارغ.xlsm",
+      "size_bytes": 204451,
+      "sha256": "0d8c9668f5ad5b35eba1b8d759e4f3d693cc1c32098234bd91f8f64c9c970686"
+    },
+    {
+      "path": "reference/handoff_0_3_1/Archon_Access_Handoff_0_3_1/legacy_reference/workbooks/قالب_تحصيل_مشروع_المجاري_نسخة_العمل_الأساس_قبل_المرحلة_الأولى.xlsm",
+      "size_bytes": 204451,
+      "sha256": "0d8c9668f5ad5b35eba1b8d759e4f3d693cc1c32098234bd91f8f64c9c970686"
+    },
+    {
+      "path": "reference/handoff_0_3_1/Archon_Access_Handoff_0_3_1/legacy_reference/workbooks/قالب_تحصيل_مشروع_المجاري_نسخة_العمل_المستقلة.xlsm",
+      "size_bytes": 216964,
+      "sha256": "d08dc87b06e305cff3f7916208c47749cb853f5562b2758c07e41dabea4a6bf7"
+    },
+    {
+      "path": "reference/handoff_0_3_1/Archon_Access_Handoff_0_3_1/legacy_reference/تقرير_المرحلة_الأولى_تدقيق_الأساس_المالي.docx",
+      "size_bytes": 41072,
+      "sha256": "b54fca62f0ee4496ebcb9e400d68e6ebe6d070bdbe8b31c2daaf0febf3866e8d"
+    },
+    {
+      "path": "reference/handoff_0_3_1/Archon_Access_Handoff_0_3_1/legacy_reference/تقرير_تحليل_نسخة_الأساس.txt",
+      "size_bytes": 8326,
+      "sha256": "9faf8f525907f03e915066c7498866b748890bee26c00e6dbeece13ca0facce6"
+    },
+    {
+      "path": "reference/handoff_0_3_1/Archon_Access_Handoff_0_3_1/legacy_reference/كود_تحديث_معرف_المالك.txt",
+      "size_bytes": 2246,
+      "sha256": "4958417f529804b25434beb42deed08e4ff1e58e6221eeb7f7e5859f5df3c22c"
+    },
+    {
+      "path": "reference/handoff_0_3_1/Archon_Access_Handoff_0_3_1/legacy_reference/وثيقة_التصميم_الشامل_لنظام_مساهمات_مشروع_المجاري_Access_v1.pdf",
+      "size_bytes": 1350401,
+      "sha256": "34e19e2f66f14ffe750d428f6a49dd98761e081f2af76915612ff9cf6cccbda1"
+    },
+    {
+      "path": "reference/handoff_0_3_1/Archon_Access_Handoff_0_3_1/legacy_reference/وثيقة_تخطيط_وتقرير_مراجعة_نظام_تحصيل_المجاري.docx",
+      "size_bytes": 42661,
+      "sha256": "edc4fcace8948900d505eeddc1209a29725c6be67ff88aa0e30c6bf428122154"
+    },
+    {
+      "path": "reference/handoff_0_3_1/Archon_Access_Handoff_0_3_1/MANIFEST_SHA256.json",
+      "size_bytes": 6272,
+      "sha256": "4e30222d7847042b1fef7401b3b75ec87046e0c230444a2c8c02c7aa691ee220"
+    },
+    {
+      "path": "reference/handoff_0_3_1/Archon_Access_Handoff_0_3_1/README_AR.md",
+      "size_bytes": 2661,
+      "sha256": "8d7611f4857ad609869501f9635c0fda8a62d232a327ec3a68f11b5af568f1bc"
+    },
+    {
+      "path": "reference/handoff_0_3_1/Archon_Access_Handoff_0_3_1/RELEASE_NOTES.md",
+      "size_bytes": 1043,
+      "sha256": "1e55e80b431115937815171e61543e893eeafa576b77abfb4c1d8d647923564d"
+    },
+    {
+      "path": "reference/handoff_0_3_1/Archon_Access_Handoff_0_3_1/src/modArchonBuild.bas",
+      "size_bytes": 31782,
+      "sha256": "34542febd78360864e36985e63bd487a1836f70ed7ec04d26d8b9b9b64f68a68"
+    },
+    {
+      "path": "reference/handoff_0_3_1/Archon_Access_Handoff_0_3_1/src/modArchonFinance.bas",
+      "size_bytes": 69218,
+      "sha256": "edb951473be6bf58d28630153e60de55568a31846a55b168902ed6849d498104"
+    },
+    {
+      "path": "reference/handoff_0_3_1/Archon_Access_Handoff_0_3_1/src/modArchonReports.bas",
+      "size_bytes": 11007,
+      "sha256": "6a2940cbdb8aaba9ef7bed73bf3cf81868f753589acacd571cb49a5d840a2e11"
+    },
+    {
+      "path": "reference/handoff_0_3_1/Archon_Access_Handoff_0_3_1/src/modArchonUI.bas",
+      "size_bytes": 48705,
+      "sha256": "db01a85cee1266365981339f82bc4f97282449f754c4b15e2f3d4f01d81be068"
+    },
+    {
+      "path": "reference/handoff_0_3_1/Archon_Access_Handoff_0_3_1/tests/اختبارات_القبول.md",
+      "size_bytes": 7247,
+      "sha256": "7d63011ea55b5c85b4a6d3f74d39d1ad59165a6211da6e446a381116e04cba0b"
+    },
+    {
+      "path": "reference/handoff_0_3_1/Archon_Access_Handoff_0_3_1/tests/تشغيل_الاختبارات_في_هذه_البيئة.txt",
+      "size_bytes": 2763,
+      "sha256": "b37311e626bbc7e444822c02c04d964a85eeb5ff94e89213ac23d1aef3301fea"
+    },
+    {
+      "path": "reference/handoff_0_3_1/Archon_Access_Handoff_0_3_1/tests/فحص_ساكن_الحزمة.py",
+      "size_bytes": 10839,
+      "sha256": "a35ab8a579e9b5ae95e4fe449656d0abca6fce78f0c64c99b46fb7f921a50bca"
+    },
+    {
+      "path": "reference/handoff_0_3_1/Archon_Access_Handoff_0_3_1/tests/نتيجة_الفحص_الساكن.txt",
+      "size_bytes": 1087,
+      "sha256": "28897e060184f0667bf60a1fba367b0bf14c219ac58871b65717e32c294ed989"
+    },
+    {
+      "path": "reference/handoff_0_3_1/Archon_Access_Handoff_0_3_1/VERSION.txt",
+      "size_bytes": 237,
+      "sha256": "dd5f2a8c020221648268f7dece627feccedfa0d0f3ca1980e56679c26da8b470"
+    },
+    {
+      "path": "reference/matrix_0.3.1.md",
+      "size_bytes": 7582,
+      "sha256": "c3e2b14715e26eca51bbd1c5f2eff71e250db4e1631289bc1c42ad71710c2c33"
+    },
+    {
+      "path": "reference/tests_0_3_1/README_AR.md",
+      "size_bytes": 473,
+      "sha256": "3b42c7e10934671ad4eb5d379c703d9fcd651d0c4b7cc7effad34fac96cfd69d"
+    },
+    {
+      "path": "reference/tests_0_3_1/فحص_ساكن_المرجع_0.3.1.py",
+      "size_bytes": 10887,
+      "sha256": "8ff342105d3a379f910290494ea7fe7ac0f10134c221d952fbd7c876c5fbfb4b"
+    },
+    {
+      "path": "reference/تقرير_الاختبارات.txt",
+      "size_bytes": 4933,
+      "sha256": "781de5b7122b0bfa7de7ab6b4548622050cab2149a8c156e1fda165456868338"
+    },
+    {
+      "path": "reference/تقرير_المراجعة_والحالة.md",
+      "size_bytes": 7117,
+      "sha256": "7c053a6943fac2dfb27cd210c544ad26084501d2c2071117b85e487b5132c1df"
+    },
+    {
+      "path": "reference/تقرير_تحليل_نسخة_الأساس.txt",
+      "size_bytes": 8326,
+      "sha256": "9faf8f525907f03e915066c7498866b748890bee26c00e6dbeece13ca0facce6"
+    },
+    {
+      "path": "release/RELEASE_NOTES_AR.md",
+      "size_bytes": 4716,
+      "sha256": "e587ce3f248d2780e83ca08c43db22644b51b50420e95f61e108e76fc9030560"
+    },
+    {
+      "path": "src/sql/schema_reference.sql",
+      "size_bytes": 13940,
+      "sha256": "01e7d6da4bb2f41cd11e34ba7ca2838305f740f5e1d0bfd3de813f5e108234f1"
+    },
+    {
+      "path": "src/vba/modArchonAttachments.bas",
+      "size_bytes": 9603,
+      "sha256": "0c51658b46fba5deba347a128184a12189ad4eb52eb8f13aa40b3ed0be1d1a20"
+    },
+    {
+      "path": "src/vba/modArchonBuild.bas",
+      "size_bytes": 60660,
+      "sha256": "ad4ce7693660ce042fb0a5df8db946126a065b1f0c7b7e27d2dd4c6e5dba3d16"
+    },
+    {
+      "path": "src/vba/modArchonClosing.bas",
+      "size_bytes": 14431,
+      "sha256": "8e235df93a73c17e875b99477c19a950660b8b6fcb421653c71245bb0b9cfc66"
+    },
+    {
+      "path": "src/vba/modArchonConfig.bas",
+      "size_bytes": 7232,
+      "sha256": "c0d391c709fa145001a1319c36b77187062b1fda0f101ff3fc37fd5c3036ab15"
+    },
+    {
+      "path": "src/vba/modArchonCore.bas",
+      "size_bytes": 1135,
+      "sha256": "d83190b11c45390652b5621c3188ddf283625ffbbd278d1a7e7dc74e328e21d1"
+    },
+    {
+      "path": "src/vba/modArchonFinance.bas",
+      "size_bytes": 95088,
+      "sha256": "beabe7b5d1f26e588aa335b3d67ad7789ebadaa566842a45e36bc817b24aaa52"
+    },
+    {
+      "path": "src/vba/modArchonInstaller.bas",
+      "size_bytes": 11732,
+      "sha256": "28cb70488a235859aabea3255e9035b11cc3063f4540ef12ac78e8bb4792216f"
+    },
+    {
+      "path": "src/vba/modArchonOperations.bas",
+      "size_bytes": 8134,
+      "sha256": "bea79248147c8f37da1897d2a6c95f1a8a92620938a1e4a839a704695c38f7f0"
+    },
+    {
+      "path": "src/vba/modArchonPrint.bas",
+      "size_bytes": 10846,
+      "sha256": "98ba769e1420176eb822dcf911233e99ab13249e6743b285e51c05c58207125d"
+    },
+    {
+      "path": "src/vba/modArchonProperty.bas",
+      "size_bytes": 33870,
+      "sha256": "80f5456b9bf50584f426e1de263fde1f916ba5e1c075ffc6a51338856634d1db"
+    },
+    {
+      "path": "src/vba/modArchonReports.bas",
+      "size_bytes": 19333,
+      "sha256": "28e4370f85af003c587229c764c47bcfed5052cf3398aa6027ab0c4aec68d309"
+    },
+    {
+      "path": "src/vba/modArchonUI.bas",
+      "size_bytes": 142907,
+      "sha256": "dec8a74d160864500347e0d5e4395dedcf9c9db134d7defff15e0ebc35541c40"
+    },
+    {
+      "path": "tests/Verify-Windows-PowerShell.ps1",
+      "size_bytes": 1847,
+      "sha256": "ba113f5a116d30b122f730f04e65a0eeb59a53f04e0459d0419baddcaa5fca57"
+    },
+    {
+      "path": "tests/verify_package.py",
+      "size_bytes": 36535,
+      "sha256": "6e8e1281e3bd3807d002eee8bf43fb4ed2460aca8f8a4bfd8275b45c3b611c43"
+    },
+    {
+      "path": "tests/اختبارات_القبول_المرجعية_0.3.1.md",
+      "size_bytes": 11900,
+      "sha256": "fa16fe031b099b7a4277b3c3aa6f2485bf98604112590e6e0353d71143182be0"
+    },
+    {
+      "path": "tools/Backup_Restore_Archon.ps1",
+      "size_bytes": 21524,
+      "sha256": "a98ea76de1a18982a976a28873d3a8b801125a65d535fad48ee2283d85c90d86"
+    },
+    {
+      "path": "tools/Install_Archon_Tech.ps1",
+      "size_bytes": 10390,
+      "sha256": "4255425c59406e9757ef4cc76ad5db27bc242a0bde0f628817a954b62ddb427a"
+    },
+    {
+      "path": "VERSION.txt",
+      "size_bytes": 250,
+      "sha256": "8c2903c365550c5b48315b84bc5f2d620e1d49bd16e867a1409c5a57a8a50b5d"
+    },
+    {
+      "path": "تشغيل_المثبت_وفحصه.cmd",
+      "size_bytes": 804,
+      "sha256": "fb260533c167ad61333514d0503f1afab97a3e0d83e0288000a03735222c041b"
+    }
+  ]
+}

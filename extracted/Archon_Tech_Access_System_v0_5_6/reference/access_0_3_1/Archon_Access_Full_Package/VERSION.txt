@@ -1,0 +1,4 @@
+Archon Tech - Sewer Contributions Access System
+Package: 0.3.1 - owner search/statement, account setup and safer number formatting
+Date: 2026-10-28
+Status: Source package only; Access compile/runtime tests pending; not production-ready.

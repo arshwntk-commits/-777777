@@ -1,0 +1,26 @@
+
+test_credit_use_cannot_exceed_source (__main__.FinancialRuleSmokeTests.test_credit_use_cannot_exceed_source) ... ok
+test_overpayment_becomes_separate_credit (__main__.FinancialRuleSmokeTests.test_overpayment_becomes_separate_credit) ... ok
+test_partial_payment_remaining (__main__.FinancialRuleSmokeTests.test_partial_payment_remaining) ... ok
+test_reserved_transfer_reduces_available_balance (__main__.FinancialRuleSmokeTests.test_reserved_transfer_reduces_available_balance) ... ok
+test_reverse_allocation_reopens_due_and_credits_owner (__main__.FinancialRuleSmokeTests.test_reverse_allocation_reopens_due_and_credits_owner) ... ok
+test_account_creation_is_permissioned_and_has_zero_opening_balance (__main__.SourceValidation.test_account_creation_is_permissioned_and_has_zero_opening_balance) ... ok
+test_custom_at_references_resolve (__main__.SourceValidation.test_custom_at_references_resolve) ... ok
+test_entry_forms_are_editable_and_grid_forms_read_only (__main__.SourceValidation.test_entry_forms_are_editable_and_grid_forms_read_only) ... ok
+test_initial_ui_registers_owner_search_edit_and_credit_forms (__main__.SourceValidation.test_initial_ui_registers_owner_search_edit_and_credit_forms) ... ok
+test_no_direct_financial_delete_statements (__main__.SourceValidation.test_no_direct_financial_delete_statements) ... ok
+test_number_helper_does_not_open_nested_transaction (__main__.SourceValidation.test_number_helper_does_not_open_nested_transaction) ... ok
+test_number_series_format_never_truncates_overflow_digits (__main__.SourceValidation.test_number_series_format_never_truncates_overflow_digits) ... ok
+test_owner_edit_has_reason_and_old_new_audit (__main__.SourceValidation.test_owner_edit_has_reason_and_old_new_audit) ... ok
+test_owner_search_and_statement_surfaces_exist (__main__.SourceValidation.test_owner_search_and_statement_surfaces_exist) ... ok
+test_permission_codes_seeded_and_role_granted (__main__.SourceValidation.test_permission_codes_seeded_and_role_granted) ... ok
+test_report_sql_parentheses_balance_and_names_unique (__main__.SourceValidation.test_report_sql_parentheses_balance_and_names_unique) ... ok
+test_reversal_preserves_owner_credit_when_cash_not_refunded (__main__.SourceValidation.test_reversal_preserves_owner_credit_when_cash_not_refunded) ... ok
+test_schema_relation_targets_exist (__main__.SourceValidation.test_schema_relation_targets_exist) ... ok
+test_sensitive_approvals_have_permission_checks (__main__.SourceValidation.test_sensitive_approvals_have_permission_checks) ... ok
+test_vba_modules_have_balanced_procedure_counts (__main__.SourceValidation.test_vba_modules_have_balanced_procedure_counts) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.026s
+
+OK

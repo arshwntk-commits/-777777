@@ -1,0 +1,15 @@
+ترتيب الاستيراد الآلي — Archon Tech Access 0.5.3
+1) modArchonCore.bas
+2) modArchonBuild.bas
+3) modArchonFinance.bas
+4) modArchonProperty.bas
+5) modArchonClosing.bas
+6) modArchonOperations.bas
+7) modArchonConfig.bas
+8) modArchonAttachments.bas
+9) modArchonReports.bas
+10) modArchonPrint.bas
+11) modArchonUI.bas
+12) modArchonInstaller.bas
+
+المثبت PowerShell يطبق هذا الترتيب تلقائيًا. لا تستوردها يدويًا عند استخدام Install_Archon_Tech.ps1.

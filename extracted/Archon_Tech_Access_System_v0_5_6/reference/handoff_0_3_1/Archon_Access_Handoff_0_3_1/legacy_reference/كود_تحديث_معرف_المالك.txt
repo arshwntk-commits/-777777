@@ -1,0 +1,40 @@
+كود تحديث ورقة «تسجيل الدفعة والإيصال» عند تغيير معرف المالك
+
+مهم: هذا الكود يُلصق في نافذة كود ورقة «تسجيل الدفعة والإيصال» نفسها داخل محرر VBA، وليس في Module_Collection.
+لا تستبدل أي كود موجود في الورقة قبل مراجعته؛ إذا كان هناك Worksheet_Change بالفعل، ادمج هذا المنطق داخله بدل إنشاء حدث ثانٍ بالاسم نفسه.
+
+Private Sub Worksheet_Change(ByVal Target As Range)
+    On Error GoTo SafeExit
+    If Intersect(Target, Me.Range("B4")) Is Nothing Then Exit Sub
+    If Target.CountLarge > 1 Then Exit Sub
+
+    Application.EnableEvents = False
+    Me.Unprotect Password:="Sewer2026"
+
+    ' إعادة اسم الدافع إلى اسم المالك الجديد، مع السماح بتعديله يدويًا بعد ذلك.
+    If Len(Trim$(CStr(Me.Range("B4").Value2))) = 0 Then
+        Me.Range("B15").ClearContents
+    ElseIf Len(Trim$(CStr(Me.Range("B5").Value2))) > 0 Then
+        Me.Range("B15").Value = Me.Range("B5").Value
+    Else
+        Me.Range("B15").ClearContents
+    End If
+
+    ' مسح مدخلات الدفعة السابقة فقط، دون لمس سجل التحصيل أو الإيصال السابق.
+    Me.Range("B13:B14").ClearContents
+    Me.Range("B17").ClearContents
+
+    ' المحصل يُدار من الإعدادات ولا يُمسح عند تغيير المالك.
+    Me.Range("B16").Formula = "='الإعدادات ودليل الاستخدام'!$B$8"
+
+SafeExit:
+    On Error Resume Next
+    Me.Protect Password:="Sewer2026", UserInterfaceOnly:=True
+    Application.EnableEvents = True
+End Sub
+
+إعداد المحصل الثابت:
+- اكتب اسم المحصل مرة واحدة في «الإعدادات ودليل الاستخدام»!B8.
+- ستعرض الخلية B16 هذا الاسم تلقائيًا.
+
+تنبيه: هذا الكود الإضافي لم يُدمج داخل vbaProject.bin في الملف تلقائيًا؛ يجب تركيبه داخل كود الورقة بعد التأكد من عدم وجود حدث Worksheet_Change آخر، ثم حفظ المصنف بصيغة XLSM.

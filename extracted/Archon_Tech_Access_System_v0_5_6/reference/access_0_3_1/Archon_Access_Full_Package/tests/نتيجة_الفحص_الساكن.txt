@@ -1,0 +1,20 @@
+Archon Tech Access source package 0.3.1
+Static validation result
+Date: 2026-10-28
+Command: python tests/فحص_ساكن_الحزمة.py
+Result: PASS — 20 tests passed, 0 failed.
+
+Scope:
+- VBA procedure-block counts and Option Explicit.
+- Cross-checks for AT_* procedure references.
+- Table/field references in declared relationship metadata.
+- Permission codes and grant lists.
+- Permission checks in sensitive posting procedures.
+- Number-series formatting behavior and overflow-width smoke examples.
+- Entry/grid form editability assumptions.
+- Owner edit audit fields, owner search/statement screens, account creation surface.
+- Report SQL query names and static parenthesis balance.
+- Arithmetic smoke tests for partial payment, overpayment credit, transfer reservations, reversal credit, and credit overuse.
+
+Limitations:
+This script does NOT compile or execute VBA, create an .accdb file, run Access SQL through ACE, or validate Access form/report layout. Microsoft Access and Wine were not available in the build environment. Do not treat this result as operational acceptance.

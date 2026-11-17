@@ -1,0 +1,445 @@
+﻿اسم الجدول,اسم الحقل,تعريف Access
+tblProjectSettings,ProjectSettingID,COUNTER CONSTRAINT PK_tblProjectSettings PRIMARY KEY
+tblProjectSettings,ProjectName,TEXT(150)
+tblProjectSettings,NeighborhoodName,TEXT(150)
+tblProjectSettings,DefaultRate,CURRENCY
+tblProjectSettings,CurrencyCode,TEXT(10)
+tblProjectSettings,DefaultCollectorName,TEXT(150)
+tblProjectSettings,CreatedAt,DATETIME
+tblProjectSettings,UpdatedAt,DATETIME
+tblContributionRates,RateID,COUNTER CONSTRAINT PK_tblContributionRates PRIMARY KEY
+tblContributionRates,RateCode,TEXT(30)
+tblContributionRates,RateAmount,CURRENCY
+tblContributionRates,EffectiveFrom,DATETIME
+tblContributionRates,EffectiveTo,DATETIME
+tblContributionRates,IsActive,YESNO
+tblContributionRates,CreatedAt,DATETIME
+tblUsers,UserID,COUNTER CONSTRAINT PK_tblUsers PRIMARY KEY
+tblUsers,UserName,TEXT(100)
+tblUsers,DisplayName,TEXT(150)
+tblUsers,AuthenticationMode,TEXT(30)
+tblUsers,IsActive,YESNO
+tblUsers,CreatedAt,DATETIME
+tblUsers,LastLoginAt,DATETIME
+tblRoles,RoleID,COUNTER CONSTRAINT PK_tblRoles PRIMARY KEY
+tblRoles,RoleCode,TEXT(40)
+tblRoles,RoleName,TEXT(100)
+tblRoles,IsActive,YESNO
+tblRoles,CreatedAt,DATETIME
+tblPermissions,PermissionID,COUNTER CONSTRAINT PK_tblPermissions PRIMARY KEY
+tblPermissions,PermissionCode,TEXT(60)
+tblPermissions,PermissionName,TEXT(150)
+tblPermissions,IsActive,YESNO
+tblUserRoleAssignments,UserRoleAssignmentID,COUNTER CONSTRAINT PK_tblUserRoleAssignments PRIMARY KEY
+tblUserRoleAssignments,UserID,LONG
+tblUserRoleAssignments,RoleID,LONG
+tblUserRoleAssignments,AssignedAt,DATETIME
+tblUserRoleAssignments,AssignedByUserID,LONG
+tblUserRoleAssignments,IsActive,YESNO
+tblRolePermissions,RolePermissionID,COUNTER CONSTRAINT PK_tblRolePermissions PRIMARY KEY
+tblRolePermissions,RoleID,LONG
+tblRolePermissions,PermissionID,LONG
+tblRolePermissions,GrantedAt,DATETIME
+tblOwners,OwnerID,COUNTER CONSTRAINT PK_tblOwners PRIMARY KEY
+tblOwners,OwnerCode,TEXT(12)
+tblOwners,FullName,TEXT(200)
+tblOwners,FullNameSearch,TEXT(200)
+tblOwners,Phone,TEXT(40)
+tblOwners,IdentityNo,TEXT(80)
+tblOwners,HouseCount,LONG
+tblOwners,ApartmentCount,LONG
+tblOwners,Notes,MEMO
+tblOwners,AdminStatus,TEXT(20)
+tblOwners,DataStatus,TEXT(20)
+tblOwners,ReviewStatus,TEXT(20)
+tblOwners,ActivityStatus,TEXT(20)
+tblOwners,CreatedAt,DATETIME
+tblOwners,UpdatedAt,DATETIME
+tblOwners,CreatedByUserID,LONG
+tblOwners,UpdatedByUserID,LONG
+tblChargeBatches,ChargeBatchID,COUNTER CONSTRAINT PK_tblChargeBatches PRIMARY KEY
+tblChargeBatches,BatchCode,TEXT(30)
+tblChargeBatches,PeriodLabel,TEXT(100)
+tblChargeBatches,ChargeDate,DATETIME
+tblChargeBatches,RateID,LONG
+tblChargeBatches,StatusCode,TEXT(20)
+tblChargeBatches,CreatedAt,DATETIME
+tblChargeBatches,CreatedByUserID,LONG
+tblChargeBatches,ApprovedAt,DATETIME
+tblChargeBatches,ApprovedByUserID,LONG
+tblChargeBatches,Reason,MEMO
+tblFinancialDocuments,DocumentID,COUNTER CONSTRAINT PK_tblFinancialDocuments PRIMARY KEY
+tblFinancialDocuments,DocumentType,TEXT(30)
+tblFinancialDocuments,TransactionDate,DATETIME
+tblFinancialDocuments,StatusCode,TEXT(20)
+tblFinancialDocuments,CreatedAt,DATETIME
+tblFinancialDocuments,CreatedByUserName,TEXT(100)
+tblFinancialDocuments,ApprovedAt,DATETIME
+tblFinancialDocuments,ApprovedByUserName,TEXT(100)
+tblFinancialDocuments,Reason,MEMO
+tblFinancialDocuments,CancelReason,MEMO
+tblFinancialDocuments,ReversalOfDocumentID,LONG
+tblOfficialDocumentNumbers,OfficialDocumentNumberID,COUNTER CONSTRAINT PK_tblOfficialDocumentNumbers PRIMARY KEY
+tblOfficialDocumentNumbers,DocumentID,LONG
+tblOfficialDocumentNumbers,OfficialNumber,TEXT(20)
+tblOfficialDocumentNumbers,SeriesCode,TEXT(30)
+tblOfficialDocumentNumbers,NumericValue,LONG
+tblOfficialDocumentNumbers,AssignedAt,DATETIME
+tblOfficialDocumentNumbers,AssignedByUserName,TEXT(100)
+tblNumberSeries,SeriesID,COUNTER CONSTRAINT PK_tblNumberSeries PRIMARY KEY
+tblNumberSeries,SeriesCode,TEXT(30)
+tblNumberSeries,NextValue,LONG
+tblNumberSeries,Prefix,TEXT(10)
+tblNumberSeries,PadLength,LONG
+tblOwnerCharges,ChargeID,COUNTER CONSTRAINT PK_tblOwnerCharges PRIMARY KEY
+tblOwnerCharges,ChargeCode,TEXT(20)
+tblOwnerCharges,DocumentID,LONG
+tblOwnerCharges,OwnerID,LONG
+tblOwnerCharges,ChargeBatchID,LONG
+tblOwnerCharges,CampaignID,LONG
+tblOwnerCharges,BuildingID,LONG
+tblOwnerCharges,ChargeDate,DATETIME
+tblOwnerCharges,PeriodStart,DATETIME
+tblOwnerCharges,PeriodEnd,DATETIME
+tblOwnerCharges,ApartmentCountAtCharge,LONG
+tblOwnerCharges,RateAmount,CURRENCY
+tblOwnerCharges,GrossAmount,CURRENCY
+tblOwnerCharges,DiscountAmount,CURRENCY
+tblOwnerCharges,NetAmount,CURRENCY
+tblOwnerCharges,OwnerCodeAtCharge,TEXT(12)
+tblOwnerCharges,OwnerNameAtCharge,TEXT(200)
+tblOwnerCharges,ChargeStatus,TEXT(20)
+tblOwnerCharges,CreatedAt,DATETIME
+tblReceipts,ReceiptID,COUNTER CONSTRAINT PK_tblReceipts PRIMARY KEY
+tblReceipts,DocumentID,LONG
+tblReceipts,OwnerID,LONG
+tblReceipts,Amount,CURRENCY
+tblReceipts,PaymentMethodID,LONG
+tblReceipts,AccountID,LONG
+tblReceipts,PayerName,TEXT(150)
+tblReceipts,CollectorName,TEXT(150)
+tblReceipts,Notes,MEMO
+tblReceipts,PrintedOwnerName,TEXT(200)
+tblReceipts,PrintedOwnerCode,TEXT(12)
+tblReceipts,PrintedNeighborhoodName,TEXT(150)
+tblReceipts,CreatedAt,DATETIME
+tblReceiptAllocationLines,AllocationID,COUNTER CONSTRAINT PK_tblReceiptAllocationLines PRIMARY KEY
+tblReceiptAllocationLines,ReceiptID,LONG
+tblReceiptAllocationLines,ChargeID,LONG
+tblReceiptAllocationLines,AllocatedAmount,CURRENCY
+tblReceiptAllocationLines,LineNo,LONG
+tblOwnerAdjustments,AdjustmentID,COUNTER CONSTRAINT PK_tblOwnerAdjustments PRIMARY KEY
+tblOwnerAdjustments,DocumentID,LONG
+tblOwnerAdjustments,ChargeID,LONG
+tblOwnerAdjustments,AdjustmentType,TEXT(30)
+tblOwnerAdjustments,SignedAmount,CURRENCY
+tblOwnerAdjustments,Reason,MEMO
+tblOwnerAdjustments,RequestedByUserName,TEXT(100)
+tblOwnerAdjustments,ApprovedByUserName,TEXT(100)
+tblOwnerAdjustments,ApprovedAt,DATETIME
+tblChargeSettlementLines,SettlementID,COUNTER CONSTRAINT PK_tblChargeSettlementLines PRIMARY KEY
+tblChargeSettlementLines,ChargeID,LONG
+tblChargeSettlementLines,DocumentID,LONG
+tblChargeSettlementLines,ReceiptID,LONG
+tblChargeSettlementLines,CreditApplicationID,LONG
+tblChargeSettlementLines,ReceiptCorrectionID,LONG
+tblChargeSettlementLines,SignedAmount,CURRENCY
+tblChargeSettlementLines,SettlementType,TEXT(30)
+tblChargeSettlementLines,ReversalOfSettlementID,LONG
+tblChargeSettlementLines,CreatedAt,DATETIME
+tblReceiptCorrections,ReceiptCorrectionID,COUNTER CONSTRAINT PK_tblReceiptCorrections PRIMARY KEY
+tblReceiptCorrections,DocumentID,LONG
+tblReceiptCorrections,OriginalReceiptID,LONG
+tblReceiptCorrections,CorrectionType,TEXT(30)
+tblReceiptCorrections,Reason,MEMO
+tblReceiptCorrectionLines,ReceiptCorrectionLineID,COUNTER CONSTRAINT PK_tblReceiptCorrectionLines PRIMARY KEY
+tblReceiptCorrectionLines,ReceiptCorrectionID,LONG
+tblReceiptCorrectionLines,OriginalAllocationID,LONG
+tblReceiptCorrectionLines,Amount,CURRENCY
+tblReceiptCorrectionLines,CreatedAt,DATETIME
+tblOwnerCreditMovements,CreditMovementID,COUNTER CONSTRAINT PK_tblOwnerCreditMovements PRIMARY KEY
+tblOwnerCreditMovements,OwnerID,LONG
+tblOwnerCreditMovements,DocumentID,LONG
+tblOwnerCreditMovements,SignedAmount,CURRENCY
+tblOwnerCreditMovements,CreditType,TEXT(30)
+tblOwnerCreditMovements,SourceReceiptID,LONG
+tblOwnerCreditMovements,SourceCreditMovementID,LONG
+tblOwnerCreditMovements,Reason,MEMO
+tblOwnerCreditMovements,CreatedAt,DATETIME
+tblCreditApplications,CreditApplicationID,COUNTER CONSTRAINT PK_tblCreditApplications PRIMARY KEY
+tblCreditApplications,DocumentID,LONG
+tblCreditApplications,OwnerID,LONG
+tblCreditApplications,Amount,CURRENCY
+tblCreditApplications,ApprovedByUserName,TEXT(100)
+tblCreditApplications,ApprovedAt,DATETIME
+tblCreditApplications,Reason,MEMO
+tblCreditApplicationLines,CreditApplicationLineID,COUNTER CONSTRAINT PK_tblCreditApplicationLines PRIMARY KEY
+tblCreditApplicationLines,CreditApplicationID,LONG
+tblCreditApplicationLines,CreditMovementID,LONG
+tblCreditApplicationLines,ChargeID,LONG
+tblCreditApplicationLines,Amount,CURRENCY
+tblAccounts,AccountID,COUNTER CONSTRAINT PK_tblAccounts PRIMARY KEY
+tblAccounts,AccountCode,TEXT(20)
+tblAccounts,AccountName,TEXT(120)
+tblAccounts,AccountType,TEXT(20)
+tblAccounts,IsActive,YESNO
+tblAccounts,CreatedAt,DATETIME
+tblPaymentMethods,PaymentMethodID,COUNTER CONSTRAINT PK_tblPaymentMethods PRIMARY KEY
+tblPaymentMethods,MethodCode,TEXT(30)
+tblPaymentMethods,MethodName,TEXT(100)
+tblPaymentMethods,IsActive,YESNO
+tblPaymentMethods,CreatedAt,DATETIME
+tblExpenseCategories,ExpenseCategoryID,COUNTER CONSTRAINT PK_tblExpenseCategories PRIMARY KEY
+tblExpenseCategories,CategoryCode,TEXT(30)
+tblExpenseCategories,CategoryName,TEXT(120)
+tblExpenseCategories,IsActive,YESNO
+tblExpenseCategories,CreatedAt,DATETIME
+tblPayments,PaymentID,COUNTER CONSTRAINT PK_tblPayments PRIMARY KEY
+tblPayments,VoucherNo,TEXT(24)
+tblPayments,DocumentID,LONG
+tblPayments,ExpenseID,LONG
+tblPayments,AccountID,LONG
+tblPayments,ExpenseCategoryID,LONG
+tblPayments,BeneficiaryName,TEXT(150)
+tblPayments,Amount,CURRENCY
+tblPayments,PaymentMethodID,LONG
+tblPayments,RecipientName,TEXT(150)
+tblPayments,Notes,MEMO
+tblPayments,RefundOfCreditMovementID,LONG
+tblPayments,RefundOfDocumentID,LONG
+tblPayments,ReversalOfPaymentID,LONG
+tblAccountTransfers,TransferID,COUNTER CONSTRAINT PK_tblAccountTransfers PRIMARY KEY
+tblAccountTransfers,DocumentID,LONG
+tblAccountTransfers,SourceAccountID,LONG
+tblAccountTransfers,DestinationAccountID,LONG
+tblAccountTransfers,Amount,CURRENCY
+tblAccountTransfers,FeeAmount,CURRENCY
+tblAccountTransfers,ConfirmedAt,DATETIME
+tblAccountTransfers,ConfirmedByUserName,TEXT(100)
+tblAccountTransfers,ConfirmationRef,TEXT(100)
+tblAccountTransfers,Notes,MEMO
+tblAccountMovements,AccountMovementID,COUNTER CONSTRAINT PK_tblAccountMovements PRIMARY KEY
+tblAccountMovements,AccountID,LONG
+tblAccountMovements,DocumentID,LONG
+tblAccountMovements,MovementDate,DATETIME
+tblAccountMovements,SignedAmount,CURRENCY
+tblAccountMovements,MovementType,TEXT(30)
+tblAccountMovements,LineNo,LONG
+tblAccountMovements,CreatedAt,DATETIME
+tblAccountReservations,ReservationID,COUNTER CONSTRAINT PK_tblAccountReservations PRIMARY KEY
+tblAccountReservations,DocumentID,LONG
+tblAccountReservations,AccountID,LONG
+tblAccountReservations,Amount,CURRENCY
+tblAccountReservations,StatusCode,TEXT(20)
+tblAccountReservations,CreatedAt,DATETIME
+tblAccountReservations,ReleasedAt,DATETIME
+tblAccountReservations,Reason,MEMO
+tblFinancialClosings,ClosingID,COUNTER CONSTRAINT PK_tblFinancialClosings PRIMARY KEY
+tblFinancialClosings,PeriodID,LONG
+tblFinancialClosings,PeriodStart,DATETIME
+tblFinancialClosings,PeriodEnd,DATETIME
+tblFinancialClosings,ClosedAt,DATETIME
+tblFinancialClosings,ClosedByUserName,TEXT(100)
+tblFinancialClosings,StatusCode,TEXT(20)
+tblFinancialClosings,DiscrepancyException,YESNO
+tblFinancialClosings,ExceptionReason,MEMO
+tblFinancialClosings,Summary,MEMO
+tblFinancialClosings,ReopenedAt,DATETIME
+tblFinancialClosings,ReopenedByUserName,TEXT(100)
+tblFinancialClosings,ReopenReason,MEMO
+tblFinancialClosingAccounts,ClosingAccountID,COUNTER CONSTRAINT PK_tblFinancialClosingAccounts PRIMARY KEY
+tblFinancialClosingAccounts,ClosingID,LONG
+tblFinancialClosingAccounts,AccountID,LONG
+tblFinancialClosingAccounts,BookBalance,CURRENCY
+tblFinancialClosingAccounts,ActualBalance,CURRENCY
+tblFinancialClosingAccounts,DifferenceAmount,CURRENCY
+tblFinancialClosingAccounts,Notes,MEMO
+tblAuditEvents,AuditEventID,COUNTER CONSTRAINT PK_tblAuditEvents PRIMARY KEY
+tblAuditEvents,EventAt,DATETIME
+tblAuditEvents,UserName,TEXT(100)
+tblAuditEvents,ActionCode,TEXT(60)
+tblAuditEvents,EntityName,TEXT(60)
+tblAuditEvents,EntityID,LONG
+tblAuditEvents,ResultCode,TEXT(30)
+tblAuditEvents,Reason,MEMO
+tblAuditEvents,Detail,MEMO
+tblAuditChanges,AuditChangeID,COUNTER CONSTRAINT PK_tblAuditChanges PRIMARY KEY
+tblAuditChanges,AuditEventID,LONG
+tblAuditChanges,FieldName,TEXT(100)
+tblAuditChanges,OldValue,MEMO
+tblAuditChanges,NewValue,MEMO
+tblAttachments,AttachmentID,COUNTER CONSTRAINT PK_tblAttachments PRIMARY KEY
+tblAttachments,DocumentID,LONG
+tblAttachments,RelativePath,MEMO
+tblAttachments,OriginalFileName,TEXT(255)
+tblAttachments,ContentType,TEXT(100)
+tblAttachments,FileSizeBytes,DOUBLE
+tblAttachments,SHA256,TEXT(64)
+tblAttachments,AddedAt,DATETIME
+tblAttachments,AddedByUserName,TEXT(100)
+tblBackupLog,BackupLogID,COUNTER CONSTRAINT PK_tblBackupLog PRIMARY KEY
+tblBackupLog,StartedAt,DATETIME
+tblBackupLog,CompletedAt,DATETIME
+tblBackupLog,OperationType,TEXT(20)
+tblBackupLog,SourcePath,MEMO
+tblBackupLog,DestinationPath,MEMO
+tblBackupLog,ResultCode,TEXT(20)
+tblBackupLog,FileSizeBytes,DOUBLE
+tblBackupLog,Detail,MEMO
+tblIntegrityRuns,IntegrityRunID,COUNTER CONSTRAINT PK_tblIntegrityRuns PRIMARY KEY
+tblIntegrityRuns,StartedAt,DATETIME
+tblIntegrityRuns,CompletedAt,DATETIME
+tblIntegrityRuns,RunByUserName,TEXT(100)
+tblIntegrityRuns,ResultSummary,MEMO
+tblIntegrityFindings,FindingID,COUNTER CONSTRAINT PK_tblIntegrityFindings PRIMARY KEY
+tblIntegrityFindings,IntegrityRunID,LONG
+tblIntegrityFindings,Severity,TEXT(20)
+tblIntegrityFindings,EntityName,TEXT(60)
+tblIntegrityFindings,EntityID,LONG
+tblIntegrityFindings,FindingCode,TEXT(60)
+tblIntegrityFindings,FindingText,MEMO
+tblIntegrityFindings,ResolutionStatus,TEXT(20)
+tblIntegrityFindings,ResolutionReason,MEMO
+tblIntegrityFindings,ResolvedByUserName,TEXT(100)
+tblIntegrityFindings,ResolvedAt,DATETIME
+tblSchemaVersion,SchemaVersionID,COUNTER CONSTRAINT PK_tblSchemaVersion PRIMARY KEY
+tblSchemaVersion,VersionCode,TEXT(20)
+tblSchemaVersion,InstalledAt,DATETIME
+tblSchemaVersion,InstalledByUserName,TEXT(100)
+tblSchemaVersion,Notes,MEMO
+tblBuildings,BuildingID,COUNTER CONSTRAINT PK_tblBuildings PRIMARY KEY
+tblBuildings,BuildingCode,TEXT(30)
+tblBuildings,BuildingName,TEXT(150)
+tblBuildings,Address,TEXT(255)
+tblBuildings,IsActive,YESNO
+tblBuildings,CreatedAt,DATETIME
+tblBuildings,UpdatedAt,DATETIME
+tblBuildings,Notes,MEMO
+tblBuildingOwnership,OwnershipID,COUNTER CONSTRAINT PK_tblBuildingOwnership PRIMARY KEY
+tblBuildingOwnership,BuildingID,LONG
+tblBuildingOwnership,OwnerID,LONG
+tblBuildingOwnership,StartDate,DATETIME
+tblBuildingOwnership,EndDate,DATETIME
+tblBuildingOwnership,TransferDocumentNo,TEXT(100)
+tblBuildingOwnership,Reason,MEMO
+tblBuildingOwnership,CreatedAt,DATETIME
+tblBuildingOwnership,CreatedByUserName,TEXT(100)
+tblUnits,UnitID,COUNTER CONSTRAINT PK_tblUnits PRIMARY KEY
+tblUnits,BuildingID,LONG
+tblUnits,UnitCode,TEXT(30)
+tblUnits,FloorNo,TEXT(30)
+tblUnits,IsActive,YESNO
+tblUnits,IsContributionEligible,YESNO
+tblUnits,Notes,MEMO
+tblUnits,CreatedAt,DATETIME
+tblUnits,UpdatedAt,DATETIME
+tblUnitOccupancy,OccupancyID,COUNTER CONSTRAINT PK_tblUnitOccupancy PRIMARY KEY
+tblUnitOccupancy,UnitID,LONG
+tblUnitOccupancy,FamilyName,TEXT(150)
+tblUnitOccupancy,HouseholdCount,LONG
+tblUnitOccupancy,StartDate,DATETIME
+tblUnitOccupancy,EndDate,DATETIME
+tblUnitOccupancy,Notes,MEMO
+tblUnitOccupancy,CreatedAt,DATETIME
+tblUnitExemptionRequests,ExemptionRequestID,COUNTER CONSTRAINT PK_tblUnitExemptionRequests PRIMARY KEY
+tblUnitExemptionRequests,UnitID,LONG
+tblUnitExemptionRequests,RequestDate,DATETIME
+tblUnitExemptionRequests,EffectiveFrom,DATETIME
+tblUnitExemptionRequests,EffectiveTo,DATETIME
+tblUnitExemptionRequests,Reason,MEMO
+tblUnitExemptionRequests,EvidenceReference,TEXT(255)
+tblUnitExemptionRequests,RequestedByUserName,TEXT(100)
+tblUnitExemptionRequests,StatusCode,TEXT(20)
+tblUnitExemptionRequests,DecidedByUserName,TEXT(100)
+tblUnitExemptionRequests,DecidedAt,DATETIME
+tblUnitExemptionRequests,DecisionReason,MEMO
+tblUnitExemptionRequests,CreatedAt,DATETIME
+tblContributionTypes,ContributionTypeID,COUNTER CONSTRAINT PK_tblContributionTypes PRIMARY KEY
+tblContributionTypes,TypeCode,TEXT(30)
+tblContributionTypes,TypeName,TEXT(120)
+tblContributionTypes,CalculationMethod,TEXT(30)
+tblContributionTypes,IsBaseType,YESNO
+tblContributionTypes,IsActive,YESNO
+tblContributionTypes,CreatedAt,DATETIME
+tblContributionCampaigns,CampaignID,COUNTER CONSTRAINT PK_tblContributionCampaigns PRIMARY KEY
+tblContributionCampaigns,CampaignCode,TEXT(30)
+tblContributionCampaigns,CampaignName,TEXT(150)
+tblContributionCampaigns,ContributionTypeID,LONG
+tblContributionCampaigns,TargetScope,TEXT(30)
+tblContributionCampaigns,RateID,LONG
+tblContributionCampaigns,AmountPerUnit,CURRENCY
+tblContributionCampaigns,PeriodStart,DATETIME
+tblContributionCampaigns,PeriodEnd,DATETIME
+tblContributionCampaigns,DueDate,DATETIME
+tblContributionCampaigns,Reason,MEMO
+tblContributionCampaigns,StatusCode,TEXT(20)
+tblContributionCampaigns,CreatedAt,DATETIME
+tblContributionCampaigns,CreatedByUserName,TEXT(100)
+tblContributionCampaigns,ApprovedAt,DATETIME
+tblContributionCampaigns,ApprovedByUserName,TEXT(100)
+tblCampaignBuildingTargets,CampaignBuildingTargetID,COUNTER CONSTRAINT PK_tblCampaignBuildingTargets PRIMARY KEY
+tblCampaignBuildingTargets,CampaignID,LONG
+tblCampaignBuildingTargets,BuildingID,LONG
+tblCampaignUnitTargets,CampaignUnitTargetID,COUNTER CONSTRAINT PK_tblCampaignUnitTargets PRIMARY KEY
+tblCampaignUnitTargets,CampaignID,LONG
+tblCampaignUnitTargets,UnitID,LONG
+tblChargeLines,ChargeLineID,COUNTER CONSTRAINT PK_tblChargeLines PRIMARY KEY
+tblChargeLines,ChargeID,LONG
+tblChargeLines,CampaignID,LONG
+tblChargeLines,UnitID,LONG
+tblChargeLines,BuildingID,LONG
+tblChargeLines,OwnerIDSnapshot,LONG
+tblChargeLines,BuildingCodeSnapshot,TEXT(30)
+tblChargeLines,UnitCodeSnapshot,TEXT(30)
+tblChargeLines,RateAmount,CURRENCY
+tblChargeLines,GrossAmount,CURRENCY
+tblChargeLines,DiscountAmount,CURRENCY
+tblChargeLines,NetAmount,CURRENCY
+tblChargeLines,CreatedAt,DATETIME
+tblFinancialPeriods,PeriodID,COUNTER CONSTRAINT PK_tblFinancialPeriods PRIMARY KEY
+tblFinancialPeriods,PeriodCode,TEXT(30)
+tblFinancialPeriods,PeriodName,TEXT(100)
+tblFinancialPeriods,PeriodStart,DATETIME
+tblFinancialPeriods,PeriodEnd,DATETIME
+tblFinancialPeriods,StatusCode,TEXT(20)
+tblFinancialPeriods,CreatedAt,DATETIME
+tblFinancialPeriods,CreatedByUserName,TEXT(100)
+tblFinancialPeriods,ClosedAt,DATETIME
+tblFinancialPeriods,ClosedByUserName,TEXT(100)
+tblFinancialPeriods,ReopenedAt,DATETIME
+tblFinancialPeriods,ReopenedByUserName,TEXT(100)
+tblFinancialPeriods,ReopenReason,MEMO
+tblExpenses,ExpenseID,COUNTER CONSTRAINT PK_tblExpenses PRIMARY KEY
+tblExpenses,ExpenseNo,TEXT(24)
+tblExpenses,ExpenseDate,DATETIME
+tblExpenses,CategoryID,LONG
+tblExpenses,BeneficiaryName,TEXT(150)
+tblExpenses,Description,MEMO
+tblExpenses,Amount,CURRENCY
+tblExpenses,StatusCode,TEXT(20)
+tblExpenses,CreatedAt,DATETIME
+tblExpenses,CreatedByUserName,TEXT(100)
+tblExpenses,UpdatedAt,DATETIME
+tblPaymentVoucherReversals,ReversalID,COUNTER CONSTRAINT PK_tblPaymentVoucherReversals PRIMARY KEY
+tblPaymentVoucherReversals,PaymentID,LONG
+tblPaymentVoucherReversals,DocumentID,LONG
+tblPaymentVoucherReversals,Amount,CURRENCY
+tblPaymentVoucherReversals,Reason,MEMO
+tblPaymentVoucherReversals,CreatedAt,DATETIME
+tblPaymentVoucherReversals,CreatedByUserName,TEXT(100)
+tblSystemSettings,SystemSettingID,COUNTER CONSTRAINT PK_tblSystemSettings PRIMARY KEY
+tblSystemSettings,SettingKey,TEXT(100)
+tblSystemSettings,SettingValue,MEMO
+tblSystemSettings,UpdatedAt,DATETIME
+tblSystemSettings,UpdatedByUserName,TEXT(100)
+tblUserPreferences,UserPreferenceID,COUNTER CONSTRAINT PK_tblUserPreferences PRIMARY KEY
+tblUserPreferences,UserID,LONG
+tblUserPreferences,PreferenceKey,TEXT(100)
+tblUserPreferences,PreferenceValue,MEMO
+tblUserPreferences,UpdatedAt,DATETIME
+tblReceiptAttachments,ReceiptAttachmentID,COUNTER CONSTRAINT PK_tblReceiptAttachments PRIMARY KEY
+tblReceiptAttachments,ReceiptID,LONG
+tblReceiptAttachments,AttachmentID,LONG
+tblExpenseAttachments,ExpenseAttachmentID,COUNTER CONSTRAINT PK_tblExpenseAttachments PRIMARY KEY
+tblExpenseAttachments,ExpenseID,LONG
+tblExpenseAttachments,AttachmentID,LONG

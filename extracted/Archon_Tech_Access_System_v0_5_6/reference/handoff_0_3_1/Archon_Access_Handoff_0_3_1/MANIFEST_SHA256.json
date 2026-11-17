@@ -1,0 +1,161 @@
+{
+  "package": "Archon Access source handoff 0.3.1",
+  "warning": "NOT a final Access database; no .accdb or .accde included",
+  "files": [
+    {
+      "path": "README_AR.md",
+      "size_bytes": 2661,
+      "sha256": "8d7611f4857ad609869501f9635c0fda8a62d232a327ec3a68f11b5af568f1bc"
+    },
+    {
+      "path": "RELEASE_NOTES.md",
+      "size_bytes": 1043,
+      "sha256": "1e55e80b431115937815171e61543e893eeafa576b77abfb4c1d8d647923564d"
+    },
+    {
+      "path": "VERSION.txt",
+      "size_bytes": 237,
+      "sha256": "dd5f2a8c020221648268f7dece627feccedfa0d0f3ca1980e56679c26da8b470"
+    },
+    {
+      "path": "docs/تشخيص_بيئة_البناء_2026-10-28.md",
+      "size_bytes": 2459,
+      "sha256": "b5de10c6eee36486751ef2470aa52c6cc4bce5d9a7e3bcd9976ce1d91dd4513b"
+    },
+    {
+      "path": "docs/تقرير_التسليم_0.3.1.md",
+      "size_bytes": 7769,
+      "sha256": "9944fb6a224f438d2597688f1bd337f659947a262f476bdaa7f0cbb7de08cf64"
+    },
+    {
+      "path": "docs/تقرير_المراجعة_والحدود.md",
+      "size_bytes": 8231,
+      "sha256": "4c7dbc43ddf80e77fd048c6098fb0783bb1d619619d769eb774d8ecc9e30e2da"
+    },
+    {
+      "path": "docs/خطة_التنفيذ_والقبول.md",
+      "size_bytes": 5230,
+      "sha256": "afa8ab8a11a7d205532c66f65acc4f000f4efddf431bee47d5109a23d9ddbcb8"
+    },
+    {
+      "path": "docs/مصفوفة_المتطلبات_والحالة.md",
+      "size_bytes": 7582,
+      "sha256": "c3e2b14715e26eca51bbd1c5f2eff71e250db4e1631289bc1c42ad71710c2c33"
+    },
+    {
+      "path": "legacy_reference/Archon_Access_Design_v1.docx",
+      "size_bytes": 88849,
+      "sha256": "f8daac9ecd03865d0e11f419bb97076c79edffc4de8ba469ef7cfd462f91d933"
+    },
+    {
+      "path": "legacy_reference/Archon_Access_Design_v1.pdf",
+      "size_bytes": 1350401,
+      "sha256": "34e19e2f66f14ffe750d428f6a49dd98761e081f2af76915612ff9cf6cccbda1"
+    },
+    {
+      "path": "legacy_reference/Module_Collection.bas",
+      "size_bytes": 28834,
+      "sha256": "ea83711cac71055662fdc8c707b46977c0c9bbd6bdbf85442c68abf1f99a7dac"
+    },
+    {
+      "path": "legacy_reference/modArchonBuild_pre_v02.bas",
+      "size_bytes": 12351,
+      "sha256": "6cb6f64dd958de1048e1e650a4d5be923bb5b7f17ebdd946655f8557646f8657"
+    },
+    {
+      "path": "legacy_reference/modArchonFinance_pre_v02.bas",
+      "size_bytes": 11799,
+      "sha256": "42fe82bf36ef6fe7bdd09da11aaaca47a720d226f54494dfd8717fe6eaa7f02f"
+    },
+    {
+      "path": "legacy_reference/workbooks/قالب_تحصيل_مشروع_المجاري.xlsm",
+      "size_bytes": 225509,
+      "sha256": "de71c688b3ef99f414286f4596b9639d39e3efd7188f7dafeed591b04c10e7f6"
+    },
+    {
+      "path": "legacy_reference/workbooks/قالب_تحصيل_مشروع_المجاري_إصلاح_الإيصال_المرحلة1.xlsm",
+      "size_bytes": 217741,
+      "sha256": "b5929614534f25aaa4325031e5b2c23ce82d4ccd2bde54120a650e9746213dab"
+    },
+    {
+      "path": "legacy_reference/workbooks/قالب_تحصيل_مشروع_المجاري_جاهز_فارغ.xlsm",
+      "size_bytes": 204451,
+      "sha256": "0d8c9668f5ad5b35eba1b8d759e4f3d693cc1c32098234bd91f8f64c9c970686"
+    },
+    {
+      "path": "legacy_reference/workbooks/قالب_تحصيل_مشروع_المجاري_نسخة_العمل_الأساس_قبل_المرحلة_الأولى.xlsm",
+      "size_bytes": 204451,
+      "sha256": "0d8c9668f5ad5b35eba1b8d759e4f3d693cc1c32098234bd91f8f64c9c970686"
+    },
+    {
+      "path": "legacy_reference/workbooks/قالب_تحصيل_مشروع_المجاري_نسخة_العمل_المستقلة.xlsm",
+      "size_bytes": 216964,
+      "sha256": "d08dc87b06e305cff3f7916208c47749cb853f5562b2758c07e41dabea4a6bf7"
+    },
+    {
+      "path": "legacy_reference/تقرير_المرحلة_الأولى_تدقيق_الأساس_المالي.docx",
+      "size_bytes": 41072,
+      "sha256": "b54fca62f0ee4496ebcb9e400d68e6ebe6d070bdbe8b31c2daaf0febf3866e8d"
+    },
+    {
+      "path": "legacy_reference/تقرير_تحليل_نسخة_الأساس.txt",
+      "size_bytes": 8326,
+      "sha256": "9faf8f525907f03e915066c7498866b748890bee26c00e6dbeece13ca0facce6"
+    },
+    {
+      "path": "legacy_reference/كود_تحديث_معرف_المالك.txt",
+      "size_bytes": 2246,
+      "sha256": "4958417f529804b25434beb42deed08e4ff1e58e6221eeb7f7e5859f5df3c22c"
+    },
+    {
+      "path": "legacy_reference/وثيقة_التصميم_الشامل_لنظام_مساهمات_مشروع_المجاري_Access_v1.pdf",
+      "size_bytes": 1350401,
+      "sha256": "34e19e2f66f14ffe750d428f6a49dd98761e081f2af76915612ff9cf6cccbda1"
+    },
+    {
+      "path": "legacy_reference/وثيقة_تخطيط_وتقرير_مراجعة_نظام_تحصيل_المجاري.docx",
+      "size_bytes": 42661,
+      "sha256": "edc4fcace8948900d505eeddc1209a29725c6be67ff88aa0e30c6bf428122154"
+    },
+    {
+      "path": "src/modArchonBuild.bas",
+      "size_bytes": 31782,
+      "sha256": "34542febd78360864e36985e63bd487a1836f70ed7ec04d26d8b9b9b64f68a68"
+    },
+    {
+      "path": "src/modArchonFinance.bas",
+      "size_bytes": 69218,
+      "sha256": "edb951473be6bf58d28630153e60de55568a31846a55b168902ed6849d498104"
+    },
+    {
+      "path": "src/modArchonReports.bas",
+      "size_bytes": 11007,
+      "sha256": "6a2940cbdb8aaba9ef7bed73bf3cf81868f753589acacd571cb49a5d840a2e11"
+    },
+    {
+      "path": "src/modArchonUI.bas",
+      "size_bytes": 48705,
+      "sha256": "db01a85cee1266365981339f82bc4f97282449f754c4b15e2f3d4f01d81be068"
+    },
+    {
+      "path": "tests/اختبارات_القبول.md",
+      "size_bytes": 7247,
+      "sha256": "7d63011ea55b5c85b4a6d3f74d39d1ad59165a6211da6e446a381116e04cba0b"
+    },
+    {
+      "path": "tests/تشغيل_الاختبارات_في_هذه_البيئة.txt",
+      "size_bytes": 2763,
+      "sha256": "b37311e626bbc7e444822c02c04d964a85eeb5ff94e89213ac23d1aef3301fea"
+    },
+    {
+      "path": "tests/فحص_ساكن_الحزمة.py",
+      "size_bytes": 10839,
+      "sha256": "a35ab8a579e9b5ae95e4fe449656d0abca6fce78f0c64c99b46fb7f921a50bca"
+    },
+    {
+      "path": "tests/نتيجة_الفحص_الساكن.txt",
+      "size_bytes": 1087,
+      "sha256": "28897e060184f0667bf60a1fba367b0bf14c219ac58871b65717e32c294ed989"
+    }
+  ]
+}
